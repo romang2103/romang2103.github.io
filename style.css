@@ -13,7 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: black;
+    color: var(--font-colour);
     height: 100vh;
     width: 100vw;
     background-image: url('test2.jpg');
@@ -46,9 +46,14 @@ ul {
     padding: 0 30px;
 }
 
+:root {
+    --font-colour: #216869
+}
+
 .navbar {
-    background-color: #6A8EAE/*#084C61*/;
-    color: #EDF2F4;
+    background-color: #F9F6EE/*#6A8EAE#084C61*/;
+    opacity: 0.9;
+    color: var(--font-colour);
     height: 60px;
 }
 
@@ -58,7 +63,7 @@ ul {
 }
 
 .navbar a {
-    color: #EDF2F4;
+    color: var(--font-colour);
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;

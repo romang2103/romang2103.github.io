@@ -1,58 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
-</head>
-<body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="name">Roman Gurung</div>
-            <ul class="nav">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <header class="header">
-        <div class="container">
-            <div>
-                <h1>Roman Gurung</h1>
-                <p>Aspiring full-stack developer</p>
-            </div>
-            <img id="me" src="dj photo.jpg" alt="">
-        </div>
+    <title>Retro 90s Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="retro-style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- <section class="boxes">
-        <div class="container">
-            <div class="box">
-                <h2>
-                    Box number 1
-                </h2>
-                <p>
-                    Tell me a little about yourself
-                </p>
-            </div>
-            <div class="box">
-                <h2>
-                    Box number 2
-                </h2>
-                <p>
-                    Tell me a little about yourself
-                </p>
-            </div>
-        </div>
-    </section> -->
-</body>
+    <section id="about">
+      <h1>About</h1>
+      <p>Welcome to my Retro 90s Portfolio. My name is [Your Name], and I am a [Your Profession]. I specialize in [Your Skills]. With [Number of Years] years of experience, I have honed my skills and developed a unique style that combines modern design elements with a nod to the 90s. This website showcases my portfolio and demonstrates my passion for design and creativity.</p>
+      <img src="dj photo.jpg" alt="About Me Image">
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="project">
+        <img src="background.jpg" alt="Project 1">
+        <h2>Project 1</h2>
+        <p>This is a brief description of project 1.</p>
+      </div>
+      <div class="project">
+        <img src="test1.jpg" alt="Project 2">
+        <h2>Project 2</h2>
+        <p>This is a brief description of project 2.</p>
+      </div>
+      <div class="project">
+        <img src="test2.jpg" alt="Project 3">
+        <h2>Project 3</h2>
+        <p>This is a brief description of project 3.</p>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <h1>Contact</h1>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+    </body>
+
+    <footer>
+      <p>Copyright &copy; Roman Gurung 2023</p>
+    </footer>
 </html>

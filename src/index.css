@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'br';
+  src: url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Webfont/bariol_regular-webfont.eot');
+  src: url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Webfont/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Webfont/bariol_regular-webfont.woff2') format('woff2'),
+       url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Webfont/bariol_regular-webfont.woff') format('woff'),
+       url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Webfont/bariol_regular-webfont.ttf') format('truetype'),
+       url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Webfont/bariol_regular-webfont.svg#bariolregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bi';
+    src: url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Italic-Webfont/bariol_regular_italic-webfont.eot');
+    src: url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Italic-Webfont/bariol_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Italic-Webfont/bariol_regular_italic-webfont.woff2') format('woff2'),
+         url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Italic-Webfont/bariol_regular_italic-webfont.woff') format('woff'),
+         url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Italic-Webfont/bariol_regular_italic-webfont.ttf') format('truetype'),
+         url('../fonts/Bariol-Regular&Italic/Webfont/Bariol-Regular-Italic-Webfont/bariol_regular_italic-webfont.svg#bariolitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'br';
+}
+
+h1 {
+  font-family: 'br';
+}
+
